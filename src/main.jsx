@@ -8,7 +8,7 @@ import { Navigation } from './components/Navigation.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/developer-dashboard">
       <div className="app-layout">
         <Navigation />
         <main className="main-content">
